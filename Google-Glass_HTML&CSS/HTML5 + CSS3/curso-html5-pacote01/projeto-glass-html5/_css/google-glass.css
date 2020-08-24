@@ -1,0 +1,35 @@
+body{
+    font-family: Arial;
+    font-size: 12pt;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+article h1{
+    font-size: 15pt;
+    background-color: rgb(54, 54, 54);
+    color: grey;
+    padding: 5px;
+    margin: 0px
+}
+
+article h2{
+    font-size: 13pt;
+    color: rgb(184, 184, 184);
+    margin: 0px;
+}
+
+article{
+    margin-bottom: 800px;
+}
+
+img.img{
+    display: block;
+    float: right;
+    margin-left: 5px;
+}

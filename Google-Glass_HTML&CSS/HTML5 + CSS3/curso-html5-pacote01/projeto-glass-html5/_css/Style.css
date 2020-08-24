@@ -1,0 +1,262 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+@font-face{
+    font-family: "Logo";
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+body{
+    color: white;
+    background:black;
+    font-family: arial;
+}
+
+div#interface{
+    background-color: rgb(27, 27, 27);
+    margin: -20px auto 0px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px white;
+    font-family: "Logo";
+}
+
+#icon{
+    position: absolute;
+    left: 900px;
+    top: 70px;
+}
+
+header#Header{
+    border-bottom: 1px #606060 dashed;
+    height: 220px;
+    background: url("../_imagens/teste0.png") no-repeat 100px 130px;
+}
+
+header#Header h1{
+    text-align: left;
+    font-size: 35pt;
+    margin-left: 30px;
+}
+
+header#Header h2{
+    text-align: left;
+    font-size: 22.5pt;
+}
+
+div#interface h2{
+    font-family: 'Titillium Web', sans-serif;
+    color: gray;
+    margin-left: 75px;
+}
+
+header#h1{
+    color: gray;
+}
+
+#GG{
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+a{
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+figure.ft{
+    position: relative;
+    border: 8px solid rgb(34, 34, 34);
+    box-shadow: 1px 1px 4px white;
+}
+
+figure.ft img{
+    width: 100%;
+    height: 100%
+}
+
+figure.ft figcaption{
+    opacity: 0;
+    top: 0px;
+    position: absolute;
+    background-color: rgba(46, 46, 46, 0.473);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 0.25s;
+}
+
+figure.ft:hover figcaption{
+    opacity: 1;
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top:-20px;
+    left: 300px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 0.5s;
+}
+
+nav#menu li:hover{
+    background-color: #606060;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    color: gray;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+section#sec{
+    display: block;
+    width: 650px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 30px;
+}
+
+article#art h2{
+    font-size: 13pt;
+    color: #504f4f;
+    background-color: #252525;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#hea-art h1{
+    font-family: "Logo", sans-serif;
+    font-size: 20pt;
+    color: #a1a1a1;
+    background-color: #00000000;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.right{
+    text-align: right;
+}
+
+header#hea-art h2{
+    margin: 0px;
+    text-align: left;
+    background-color: #00000000;
+    color: #b6b6b6;
+}
+
+header#hea-art h3{
+    font-size: 13pt;
+    color: #606060;
+}
+
+table#especs td{
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+}
+
+table#especs{
+    border: 1px solid #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#especs caption{
+    font-size: 10pt;
+}
+
+table#especs caption span{
+    display: block;
+    float: right;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+table#especs td.TR{
+    color:white;
+}
+
+table#especs td.TL{
+    color:aqua;
+    font-weight: bolder;
+}
+
+article h1#vid{
+    margin: center;
+}
+
+aside#asi{
+    display: block;
+    width: 415px;
+    float: right;
+    background-color: #202020;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.459);
+    margin-left: initial;
+}
+
+aside#asi h1{
+    font-family: "Logo";
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+}
+
+aside#asi h2{
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 7.5px;
+    margin: initial;
+}
+
+footer#foot{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#foot p{
+    text-align: center;
+}
+
+a{
+    color: rgb(49, 49, 49);
+}
