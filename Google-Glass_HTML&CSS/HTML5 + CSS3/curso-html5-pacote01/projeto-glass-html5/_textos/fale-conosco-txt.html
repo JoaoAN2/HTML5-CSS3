@@ -1,97 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML5 + CSS3 Course</title>
-    <link rel="stylesheet" type = "text/css" href="../_css/Style.css"/>
-    <link rel="stylesheet" type = "text/css" href="../_css/form.css">
+    <link rel="stylesheet" type="text/css" href="../_css/Style.css" />
+    <link rel="stylesheet" type="text/css" href="../_css/form.css">
 </head>
 <script src="../_javascript/Script.js"></script>
-<script src = "../_javascript/funcoes.js"></script>
+<script src="../_javascript/funcoes.js"></script>
+
 <body>
-<div id = "interface">
+    <div id="interface">
 
-    <header id = "Header">
-    <hgroup>
-    <h1 id = "h1">Google Glass </h1>
-    <h2 id = "h2">A revolução do Google está chegando</h2>
-    </hgroup>
-
-    <img src="../_imagens/contato.png" id = "icon">
-    <nav id = "menu">
-    <h1>Menu Principal</h1>
-    <ul>
-        <li onmouseover="change_picture('../_imagens/home.png')" onmouseout="change_picture('../_imagens/contato.png')"><a href = "index-txt.html">Home</a></li>
-        <li onmouseover = "change_picture('../_imagens/especificacoes.png')" onmouseout="change_picture('../_imagens/contato.png')"><a href = "specs-txt.html">Especificações</a></li>
-        <li onmouseover = "change_picture('../_imagens/fotos.png')" onmouseout = "change_picture('../_imagens/contato.png')"><a href = "fotos-txt.html">Fotos</a></li>
-        <li onmouseover = "change_picture('../_imagens/multimidia.png')" onmouseout = "change_picture('../_imagens/contato.png')"><a href = "multimidia-txt.html">Multimídia</a></li>
-        <li onmouseover = "change_picture('../_imagens/contato.png')" onmouseout = "change_picture('../_imagens/contato.png')"><a href = "fale-conosco-txt.html">Fale conosco</a></li>
-    </ol>
-    </nav>
-    
-</header>
-
-<section>
-    <article id = "art">
-        <header id = "hea-art">
+        <header id="Header">
             <hgroup>
-            <h3>Fale Conosco > Contato</h3>
-            <h1>Formulário de Contato</h1>
-            <h2>por Gustavo Guanabara</h2>
-            <h3 class="right">Atualizado em 01/Maio/2013</h3>
+                <h1 id="h1">Google Glass </h1>
+                <h2 id="h2">A revolução do Google está chegando</h2>
             </hgroup>
+
+            <img src="../_imagens/contato.png" id="icon">
+            <nav id="menu">
+                <h1>Menu Principal</h1>
+                <ul>
+                    <li onmouseover="change_picture('../_imagens/home.png')"
+                        onmouseout="change_picture('../_imagens/contato.png')"><a href="index-txt.html">Home</a></li>
+                    <li onmouseover="change_picture('../_imagens/especificacoes.png')"
+                        onmouseout="change_picture('../_imagens/contato.png')"><a
+                            href="specs-txt.html">Especificações</a></li>
+                    <li onmouseover="change_picture('../_imagens/fotos.png')"
+                        onmouseout="change_picture('../_imagens/contato.png')"><a href="fotos-txt.html">Fotos</a></li>
+                    <li onmouseover="change_picture('../_imagens/multimidia.png')"
+                        onmouseout="change_picture('../_imagens/contato.png')"><a
+                            href="multimidia-txt.html">Multimídia</a></li>
+                    <li onmouseover="change_picture('../_imagens/contato.png')"
+                        onmouseout="change_picture('../_imagens/contato.png')"><a href="fale-conosco-txt.html">Fale
+                            conosco</a></li>
+                    </ol>
+            </nav>
+
         </header>
 
-        <form method = "POST" id = 'form' action = "mailto:joao.an.221203@gmail.com" oninput = "calc_total()">
-            
-            <fieldset id = "user">
-                <legend>Identificação do Usuário</legend>
-                    <p> <label for = "name">Nome Completo: </label><input type = "text" id = "name" size = "20" placeholder = "Full name"></p>
-                    <p> <label for = "password">Senha: </label><input type = "password" id = "password" placeholder = "Password"></p>
-                    <p> <label for = "e-mail">E-mail: </label><input type = "e-mail" id = "e-mail" placeholder = "E-mail"></p>
-                    <fieldset id = "gender">
-                        <legend>Sexo:</legend>
-                            <input type = 'radio' id = "gender-masc" name = "gender0"> <label for = "gender-masc">- Masculino</label><br>
-                            <input type = 'radio' id = "gender-fem" name = "gender0"> <label for = "gender-fem">- Feminino</label>
+        <section>
+            <article id="art">
+                <header id="hea-art">
+                    <hgroup>
+                        <h3>Fale Conosco > Contato</h3>
+                        <h1>Formulário de Contato</h1>
+                        <h2>por Gustavo Guanabara</h2>
+                        <h3 class="right">Atualizado em 01/Maio/2013</h3>
+                    </hgroup>
+                </header>
+
+                <form method="POST" id='form' action="mailto:joao.an.221203@gmail.com" oninput="calc_total()">
+
+                    <fieldset id="user">
+                        <legend>Identificação do Usuário</legend>
+                        <p> <label for="name">Nome Completo: </label><input type="text" id="name" size="20"
+                                placeholder="Full name"></p>
+                        <p> <label for="password">Senha: </label><input type="password" id="password"
+                                placeholder="Password"></p>
+                        <p> <label for="e-mail">E-mail: </label><input type="e-mail" id="e-mail" placeholder="E-mail">
+                        </p>
+                        <fieldset id="gender">
+                            <legend>Sexo:</legend>
+                            <input type='radio' id="gender-masc" name="gender0"> <label for="gender-masc">-
+                                Masculino</label><br>
+                            <input type='radio' id="gender-fem" name="gender0"> <label for="gender-fem">-
+                                Feminino</label>
+                        </fieldset>
+                        <p> <label for="birthday">Data de Nascimento: </label><input type="date" id="birthday"></p>
                     </fieldset>
-                    <p> <label for = "birthday">Data de Nascimento: </label><input type = "date" id = "birthday"></p>
-            </fieldset>
 
-            <fieldset id = "adress">
-                <legend>Endereço do Usuário</legend>
-                    <p><label for = "place">Logradouro: </label><input type = "text" id = "place" placeholder = "Public place"></p>
-                    <p><label for = "house_number">Número: </label><input type = "number" id = "house_number" placeholder = "House Number" min = "0"></p>
-                    <p><label for = "state">Estado: </label><input type = "text" id = "state" placeholder = "State"></p>
-                    <p><label for = "city">Cidade: </label><input type = "text" id = "city" placeholder = "City"></p>
-            </fieldset>
+                    <fieldset id="adress">
+                        <legend>Endereço do Usuário</legend>
+                        <p><label for="place">Logradouro: </label><input type="text" id="place"
+                                placeholder="Public place"></p>
+                        <p><label for="house_number">Número: </label><input type="number" id="house_number"
+                                placeholder="House Number" min="0"></p>
+                        <p><label for="state">Estado: </label><input type="text" id="state" placeholder="State"></p>
+                        <p><label for="city">Cidade: </label><input type="text" id="city" placeholder="City"></p>
+                    </fieldset>
 
-            <fieldset id = "msg">
-                <legend>Mensagem do Usuário</legend>
-                    <p><label for = "rate">Grau de Urgência:</label>Min<input type = "range" id = "rate" min = "0" max = "100">Max</p>
-                    <p>Mensagem:<textarea id = "msg0" placeholder = "Message"></textarea></p>
-            </fieldset>
+                    <fieldset id="msg">
+                        <legend>Mensagem do Usuário</legend>
+                        <p><label for="rate">Grau de Urgência:</label>Min<input type="range" id="rate" min="0"
+                                max="100">Max</p>
+                        <p>Mensagem:<textarea id="msg0" placeholder="Message"></textarea></p>
+                    </fieldset>
 
-            <fieldset id = "order">
-                <legend>Quero um Google Glass</legend>
-                    <p><input type = "checkbox" checked id = "g_Glass">Gostaria de adquirir um Google Glass quando disponível</p>
-                    <p>Cor: <input type = "color" id = "color" value = "#696969"></p>
-                    <p>Quantidade:<input type = "number" id = "qntd" min="0"></p>
-                    <p>Preço Total: R$ <input type = "text" id = "value" placeholder = "Total price" readonly></p>
-            </fieldset>
+                    <fieldset id="order">
+                        <legend>Quero um Google Glass</legend>
+                        <p><input type="checkbox" checked id="g_Glass">Gostaria de adquirir um Google Glass quando
+                            disponível</p>
+                        <p>Cor: <input type="color" id="color" value="#696969"></p>
+                        <p>Quantidade:<input type="number" id="qntd" min="0"></p>
+                        <p>Preço Total: R$ <input type="text" id="value" placeholder="Total price" readonly></p>
+                    </fieldset>
 
-            <input type = "image" src = "../_imagens/botao-enviar.png" id = "submit">
-        </form>
-    </article>
-</section>
+                    <input type="image" src="../_imagens/botao-enviar.png" id="submit">
+                </form>
+            </article>
+        </section>
 
-<footer id = "foot">
+        <footer id="foot">
 
-    <p>João... Termineiiii... 16 de junho de 2020 02:18<br>
-    Copyright 2013 - by Gustavo Guanabara<br>
-    <a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a> |<a href="http://twitter.com/cursosemvideo" target="_blank"> Twitter</p>
-    
-</footer>
-</div>
+            <p>João... Termineiiii... 16 de junho de 2020 02:18<br>
+                Copyright 2013 - by Gustavo Guanabara<br>
+                <a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a> |<a
+                    href="http://twitter.com/cursosemvideo" target="_blank"> Twitter</p>
+
+        </footer>
+    </div>
 </body>
-</html> 
+
+</html>
