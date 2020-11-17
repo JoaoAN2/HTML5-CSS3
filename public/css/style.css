@@ -1,262 +1,267 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 
-@font-face{
-    font-family: "Logo";
-    src: url("/public/fonts/bubblegum-sans-regular.otf");
-}
-
-body{
-    color: white;
-    background:black;
-    font-family: arial;
+@font-face {
+  font-family: "Logo";
+  src: url("/public/fonts/bubblegum-sans-regular.otf");
 }
 
-div#interface{
-    background-color: rgb(27, 27, 27);
-    margin: -20px auto 0px auto;
-    padding: 10px;
-    box-shadow: 0px 0px 10px white;
-    font-family: "Logo";
+:root {
+  font-size: 100%;
 }
 
-#icon{
-    position: absolute;
-    left: 900px;
-    top: 70px;
+body {
+  color: white;
+  height: 100vh;
+  background: black;
+  font-family: arial;
 }
 
-header#Header{
-    border-bottom: 1px #606060 dashed;
-    height: 220px;
-    background: url("/public/images/teste0.png") no-repeat 100px 130px;
+div#interface {
+  background-color: rgb(27, 27, 27);
+  margin: -20px auto 0px auto;
+  padding: 10px;
+  box-shadow: 0px 0px 10px white;
+  font-family: "Logo";
 }
 
-header#Header h1{
-    text-align: left;
-    font-size: 35pt;
-    margin-left: 30px;
+#icon {
+  position: absolute;
+  left: 900px;
+  top: 70px;
 }
 
-header#Header h2{
-    text-align: left;
-    font-size: 22.5pt;
+header#Header {
+  border-bottom: 1px #606060 dashed;
+  height: 220px;
+  background: url("/public/images/teste0.png") no-repeat 100px 130px;
 }
 
-div#interface h2{
-    font-family: 'Titillium Web', sans-serif;
-    color: gray;
-    margin-left: 75px;
+header#Header h1 {
+  text-align: left;
+  font-size: 35pt;
+  margin-left: 30px;
 }
 
-header#h1{
-    color: gray;
+header#Header h2 {
+  text-align: left;
+  font-size: 22.5pt;
 }
 
-#GG{
-    text-decoration: underline;
-}
-h1{
-    text-align: center;
-}
-h2{
-    text-align: center;
-}
-p{
-    text-align: justify;
-    text-indent: 50px;
+div#interface h2 {
+  font-family: "Titillium Web", sans-serif;
+  color: gray;
+  margin-left: 75px;
 }
 
-a{
-    color: #606060;
-    text-decoration: none;
+header#h1 {
+  color: gray;
 }
 
-a:hover{
-    text-decoration: underline;
+#GG {
+  text-decoration: underline;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+  text-indent: 50px;
 }
 
-figure.ft{
-    position: relative;
-    border: 8px solid rgb(34, 34, 34);
-    box-shadow: 1px 1px 4px white;
+a {
+  color: #606060;
+  text-decoration: none;
 }
 
-figure.ft img{
-    width: 100%;
-    height: 100%
+a:hover {
+  text-decoration: underline;
 }
 
-figure.ft figcaption{
-    opacity: 0;
-    top: 0px;
-    position: absolute;
-    background-color: rgba(46, 46, 46, 0.473);
-    color: white;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    transition: opacity 0.25s;
+figure.ft {
+  position: relative;
+  border: 8px solid rgb(34, 34, 34);
+  box-shadow: 1px 1px 4px white;
 }
 
-figure.ft:hover figcaption{
-    opacity: 1;
+figure.ft img {
+  width: 100%;
+  height: 100%;
 }
 
-nav#menu{
-    display: block;
+figure.ft figcaption {
+  opacity: 0;
+  top: 0px;
+  position: absolute;
+  background-color: rgba(46, 46, 46, 0.473);
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: opacity 0.25s;
 }
 
-nav#menu ul{
-    list-style: none;
-    text-transform: uppercase;
-    position: absolute;
-    top:-20px;
-    left: 300px;
+figure.ft:hover figcaption {
+  opacity: 1;
 }
 
-nav#menu li{
-    display: inline-block;
-    background-color: rgb(34, 34, 34);
-    padding: 10px;
-    margin: 2px;
-    transition: background-color 0.5s;
+nav#menu {
+  display: block;
 }
 
-nav#menu li:hover{
-    background-color: #606060;
+nav#menu ul {
+  list-style: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: -20px;
+  left: 300px;
 }
 
-nav#menu h1{
-    display: none;
+nav#menu li {
+  display: inline-block;
+  background-color: rgb(34, 34, 34);
+  padding: 10px;
+  margin: 2px;
+  transition: background-color 0.5s;
 }
 
-nav#menu a{
-    color: gray;
-    text-decoration: none;
+nav#menu li:hover {
+  background-color: #606060;
 }
 
-nav#menu a:hover{
-    color: white;
-    text-decoration: underline;
+nav#menu h1 {
+  display: none;
 }
 
-section#sec{
-    display: block;
-    width: 650px;
-    float: left;
-    border-right: 1px solid #606060;
-    padding-right: 30px;
+nav#menu a {
+  color: gray;
+  text-decoration: none;
 }
 
-article#art h2{
-    font-size: 13pt;
-    color: #504f4f;
-    background-color: #252525;
-    padding: 5px 0px 5px 10px;
-    margin: 10px 0px 10px 0px;
+nav#menu a:hover {
+  color: white;
+  text-decoration: underline;
 }
 
-header#hea-art h1{
-    font-family: "Logo", sans-serif;
-    font-size: 20pt;
-    color: #a1a1a1;
-    background-color: #00000000;
-    margin-bottom: 0px;
-    text-align: left;
-    margin-top: 0px;
+section#sec {
+  display: block;
+  width: 48vw;
+  float: left;
+  border-right: 1px solid #606060;
+  padding-right: 30px;
 }
 
-.right{
-    text-align: right;
+article#art h2 {
+  font-size: 13pt;
+  color: #504f4f;
+  background-color: #252525;
+  padding: 5px 0px 5px 10px;
+  margin: 10px 0px 10px 0px;
 }
 
-header#hea-art h2{
-    margin: 0px;
-    text-align: left;
-    background-color: #00000000;
-    color: #b6b6b6;
+header#hea-art h1 {
+  font-family: "Logo", sans-serif;
+  font-size: 20pt;
+  color: #a1a1a1;
+  background-color: #00000000;
+  margin-bottom: 0px;
+  text-align: left;
+  margin-top: 0px;
 }
 
-header#hea-art h3{
-    font-size: 13pt;
-    color: #606060;
+.right {
+  text-align: right;
 }
 
-table#especs td{
-    border: 1px solid #606060;
-    padding: 10px;
-    text-align: center;
+header#hea-art h2 {
+  margin: 0px;
+  text-align: left;
+  background-color: #00000000;
+  color: #b6b6b6;
 }
 
-table#especs{
-    border: 1px solid #606060;
-    border-spacing: 0px;
-    margin-left: auto;
-    margin-right: auto;
+header#hea-art h3 {
+  font-size: 13pt;
+  color: #606060;
 }
 
-table#especs caption{
-    font-size: 10pt;
+table#especs td {
+  border: 1px solid #606060;
+  padding: 10px;
+  text-align: center;
 }
 
-table#especs caption span{
-    display: block;
-    float: right;
-    font-size: 8pt;
-    margin-top: 10px;
+table#especs {
+  border: 1px solid #606060;
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-table#especs td.TR{
-    color:white;
+table#especs caption {
+  font-size: 10pt;
 }
 
-table#especs td.TL{
-    color:aqua;
-    font-weight: bolder;
+table#especs caption span {
+  display: block;
+  float: right;
+  font-size: 8pt;
+  margin-top: 10px;
 }
 
-article h1#vid{
-    margin: center;
+table#especs td.TR {
+  color: white;
 }
 
-aside#asi{
-    display: block;
-    width: 415px;
-    float: right;
-    background-color: #202020;
-    padding: 10px;
-    margin-top: 10px;
-    box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.459);
-    margin-left: initial;
+table#especs td.TL {
+  color: aqua;
+  font-weight: bolder;
 }
 
-aside#asi h1{
-    font-family: "Logo";
-    font-size: 20pt;
-    color: #606060;
-    margin-top: 0px;
+article h1#vid {
+  margin: center;
 }
 
-aside#asi h2{
-    background-color: #606060;
-    font-size: 13pt;
-    color: #ffffff;
-    padding: 7.5px;
-    margin: initial;
+aside#asi {
+  display: block;
+  width: 43vw;
+  float: right;
+  background-color: #202020;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 2px 2px 2px rgba(153, 153, 153, 0.459);
+  margin-left: initial;
 }
 
-footer#foot{
-    clear: both;
-    border-top: 1px solid #606060;
+aside#asi h1 {
+  font-family: "Logo";
+  font-size: 20pt;
+  color: #606060;
+  margin-top: 0px;
 }
 
-footer#foot p{
-    text-align: center;
+aside#asi h2 {
+  background-color: #606060;
+  font-size: 13pt;
+  color: #ffffff;
+  padding: 7.5px;
+  margin: initial;
 }
 
-a{
-    color: rgb(49, 49, 49);
+footer#foot {
+  clear: both;
+  border-top: 1px solid #606060;
+}
+
+footer#foot p {
+  text-align: center;
+}
+
+a {
+  color: rgb(49, 49, 49);
 }
