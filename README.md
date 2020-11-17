@@ -50,3 +50,8 @@ My first learnings with HTML5 and CSS3, Based on the "Curso em vídeo" course.
     <img src="public/videos/forms.gif"
     width="560"/>
 </div>
+<br>
+
+# ALL CREDITS TO _GUSTAVO GUANABARA "CURSO EM VÍDEO"_
+
+# TODOS OS CRÉDITOS AO _GUSTAVO GUANABARA DO "CURSO EM VÍDEO"_
