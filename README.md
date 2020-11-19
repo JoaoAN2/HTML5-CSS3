@@ -1,12 +1,12 @@
 # HTML5-CSS3
 
-My first learnings with HTML5 and CSS3, Based on the "Curso em vídeo" course.
+📚 My first learnings with HTML5 and CSS3, Based on the "Curso em vídeo" course.
 
 <div>
     <img src="public/images/glass-logo-peq.jpg"/>
 </div>
 
-## This project was developed with:
+## 💻 This project was developed with:
 
 - [x] HTML 5
 
@@ -14,37 +14,37 @@ My first learnings with HTML5 and CSS3, Based on the "Curso em vídeo" course.
 
 - [x] JavaScript
 
-## Pages
+## 📑 Pages
 
-### Index page
+### 🏠 Index page
 
 <div>
     <img src="public/videos/index.gif"
     width="560"/>
 </div>
 
-### Specs
+### 👓 Specs
 
 <div>
     <img src="public/videos/specs.gif"
     width="560"/>
 </div>
 
-### Pictures
+### 🖼 Pictures
 
 <div>
     <img src="public/videos/pictures.gif"
     width="560"/>
 </div>
 
-### Multimedia
+### 🎥 Multimedia
 
 <div>
     <img src="public/images/multimedia.jpeg"
     width="560"/>
 </div>
 
-### Forms
+### 📄 Forms
 
 <div>
     <img src="public/videos/forms.gif"
@@ -52,6 +52,12 @@ My first learnings with HTML5 and CSS3, Based on the "Curso em vídeo" course.
 </div>
 <br>
 
-# ALL CREDITS TO _GUSTAVO GUANABARA "CURSO EM VÍDEO"_
+## MIT License
 
-# TODOS OS CRÉDITOS AO _GUSTAVO GUANABARA DO "CURSO EM VÍDEO"_
+More details: [License](/LICENSE)
+
+---
+
+# 🎬 [ALL CREDITS TO _GUSTAVO GUANABARA "CURSO EM VÍDEO"_](https://www.youtube.com/cursoemvideo)
+
+# 🎬 [TODOS OS CRÉDITOS AO _GUSTAVO GUANABARA DO "CURSO EM VÍDEO"_](https://www.youtube.com/cursoemvideo)
