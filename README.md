@@ -58,6 +58,7 @@ More details: [License](/LICENSE)
 
 ---
 
-# 🎬 [ALL CREDITS TO _GUSTAVO GUANABARA "CURSO EM VÍDEO"_](https://www.youtube.com/cursoemvideo)
+### 🎬 [ALL CREDITS TO _GUSTAVO GUANABARA "CURSO EM VÍDEO"_](https://www.youtube.com/cursoemvideo)
 
-# 🎬 [TODOS OS CRÉDITOS AO _GUSTAVO GUANABARA DO "CURSO EM VÍDEO"_](https://www.youtube.com/cursoemvideo)
+---
+<div align = "center"> 💻 Developed by João Augusto do Nascimento 🚀</div>
