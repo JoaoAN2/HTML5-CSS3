@@ -56,8 +56,6 @@
 
 More details: [License](/LICENSE)
 
----
-
 ### 🎬 [ALL CREDITS TO _GUSTAVO GUANABARA "CURSO EM VÍDEO"_](https://www.youtube.com/cursoemvideo)
 
 ---
